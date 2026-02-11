@@ -1,0 +1,33 @@
+﻿方案编号,生物质通量,方案反应数,反应ID,反应名称,反应方程式,反应方程式注释
+1,0.2152376282237208,2,rxn01048_c,D-Xylulose-5-phosphate:formaldehyde glycolaldehydetransferase,cpd00055_c + cpd00198_c <=> cpd00102_c + cpd00157_c,Formaldehyde + D-Xylulose5-phosphate <=> Glyceraldehyde3-phosphate + Glycerone
+1,0.2152376282237208,2,rxn08429_c,fructose 6-phosphate aldolase,cpd00072_c <=> cpd00102_c + cpd00157_c,D-fructose-6-phosphate <=> Glyceraldehyde3-phosphate + Glycerone
+2,0.21523762820356826,2,rxn03644_c,D-arabino-hex-3-ulose-6-phosphate isomerase,cpd03583_c <=> cpd00072_c,D-arabino-6-Phospho-hex-3-ulose <=> D-fructose-6-phosphate
+2,0.21523762820356826,2,rxn03643_c,D-arabino-hex-3-ulose-6-phosphate formaldehyde-lyase (D-ribulose-5-phosphate-forming),cpd00055_c + cpd00171_c <=> cpd03583_c,Formaldehyde + D-Ribulose5-phosphate <=> D-arabino-6-Phospho-hex-3-ulose
+3,0.1926424501948377,2,rxn00762_c,glycerol:NAD+ 2-oxidoreductase,cpd00003_c + cpd00100_c <=> cpd00004_c + cpd00067_c + cpd00157_c,NAD + Glycerol <=> NADH + H+ + Glycerone
+3,0.1926424501948377,2,rxn01048_c,D-Xylulose-5-phosphate:formaldehyde glycolaldehydetransferase,cpd00055_c + cpd00198_c <=> cpd00102_c + cpd00157_c,Formaldehyde + D-Xylulose5-phosphate <=> Glyceraldehyde3-phosphate + Glycerone
+4,0.18915994354707338,2,rxn00744_c,ATP:glycerone phosphotransferase,cpd00002_c + cpd00157_c --> cpd00008_c + cpd00067_c + cpd00095_c,ATP + Glycerone --> ADP + H+ + Glycerone-phosphate
+4,0.18915994354707338,2,rxn01048_c,D-Xylulose-5-phosphate:formaldehyde glycolaldehydetransferase,cpd00055_c + cpd00198_c <=> cpd00102_c + cpd00157_c,Formaldehyde + D-Xylulose5-phosphate <=> Glyceraldehyde3-phosphate + Glycerone
+5,0.1547488115343618,2,rxn00908_c,glycine synthase,cpd00003_c + cpd00033_c + cpd00087_c <=> cpd00004_c + cpd00011_c + cpd00013_c + cpd00125_c,NAD + Glycine + Tetrahydrofolate <=> NADH + CO2 + NH3 + 5-10-Methylenetetrahydrofolate
+5,0.1547488115343618,2,rxn00690_c,Formate:tetrahydrofolate ligase (ADP-forming),cpd00002_c + cpd00047_c + cpd00087_c --> cpd00008_c + cpd00009_c + cpd00201_c,ATP + Formate + Tetrahydrofolate --> ADP + Phosphate + 10-Formyltetrahydrofolate
+6,0.15474870653744846,2,rxn04784_c,5-formaminoimidazole-4-carboxamide-1-beta-D-ribofuranosyl 5'-monophosphate synthetase,cpd00002_c + cpd00047_c + cpd02851_c --> cpd00008_c + cpd00009_c + cpd02884_c,ATP + Formate + AICAR --> ADP + Phosphate + FAICAR
+6,0.15474870653744846,2,rxn00908_c,glycine synthase,cpd00003_c + cpd00033_c + cpd00087_c <=> cpd00004_c + cpd00011_c + cpd00013_c + cpd00125_c,NAD + Glycine + Tetrahydrofolate <=> NADH + CO2 + NH3 + 5-10-Methylenetetrahydrofolate
+7,0.13465765209943706,2,rxn01111_c,ATP:D-ribulose-5-phosphate 1-phosphotransferase,cpd00002_c + cpd00171_c --> cpd00008_c + cpd00067_c + cpd00871_c,"ATP + D-Ribulose5-phosphate --> ADP + H+ + D-Ribulose 1,5-bisphosphate"
+7,0.13465765209943706,2,rxn00018_c,"3-phospho-D-glycerate carboxy-lyase (dimerizing; D-ribulose-1,5-bisphosphate-forming)",cpd00001_c + cpd00011_c + cpd00871_c --> 2.0 cpd00067_c + 2.0 cpd00169_c,"H2O + CO2 + D-Ribulose 1,5-bisphosphate --> 2 H+ + 2 3-Phosphoglycerate"
+8,0.10505116669213144,3,rxn00273_c,Acetyl-CoA:glycine C-acetyltransferase,cpd00022_c + cpd00033_c <-- cpd00010_c + cpd02053_c,Acetyl-CoA + Glycine --> CoA + 2-Amino-acetoacetate
+8,0.10505116669213144,3,rxn11130_c,rxn11130,cpd00003_c + cpd00161_c <=> cpd00004_c + cpd00067_c + cpd02053_c,NAD + L-Threonine <=> NADH + H+ + 2-Amino-acetoacetate
+8,0.10505116669213144,3,rxn04784_c,5-formaminoimidazole-4-carboxamide-1-beta-D-ribofuranosyl 5'-monophosphate synthetase,cpd00002_c + cpd00047_c + cpd02851_c --> cpd00008_c + cpd00009_c + cpd02884_c,ATP + Formate + AICAR --> ADP + Phosphate + FAICAR
+9,0.10505131266322446,3,rxn00273_c,Acetyl-CoA:glycine C-acetyltransferase,cpd00022_c + cpd00033_c <-- cpd00010_c + cpd02053_c,Acetyl-CoA + Glycine --> CoA + 2-Amino-acetoacetate
+9,0.10505131266322446,3,rxn11130_c,rxn11130,cpd00003_c + cpd00161_c <=> cpd00004_c + cpd00067_c + cpd02053_c,NAD + L-Threonine <=> NADH + H+ + 2-Amino-acetoacetate
+9,0.10505131266322446,3,rxn00690_c,Formate:tetrahydrofolate ligase (ADP-forming),cpd00002_c + cpd00047_c + cpd00087_c --> cpd00008_c + cpd00009_c + cpd00201_c,ATP + Formate + Tetrahydrofolate --> ADP + Phosphate + 10-Formyltetrahydrofolate
+10,0.10505176497343358,3,rxn00274_c,Acetyl-CoA:glycine C-acetyltransferase,cpd00022_c + cpd00033_c <-- cpd00010_c + cpd02211_c,Acetyl-CoA + Glycine --> CoA + L-2-Amino-acetoacetate
+10,0.10505176497343358,3,rxn01068_c,L-threonine:NAD+ oxidoreductase,cpd00003_c + cpd00161_c <=> cpd00004_c + cpd00067_c + cpd02211_c,NAD + L-Threonine <=> NADH + H+ + L-2-Amino-acetoacetate
+10,0.10505176497343358,3,rxn00690_c,Formate:tetrahydrofolate ligase (ADP-forming),cpd00002_c + cpd00047_c + cpd00087_c --> cpd00008_c + cpd00009_c + cpd00201_c,ATP + Formate + Tetrahydrofolate --> ADP + Phosphate + 10-Formyltetrahydrofolate
+11,0.10505116630841353,3,rxn00274_c,Acetyl-CoA:glycine C-acetyltransferase,cpd00022_c + cpd00033_c <-- cpd00010_c + cpd02211_c,Acetyl-CoA + Glycine --> CoA + L-2-Amino-acetoacetate
+11,0.10505116630841353,3,rxn04784_c,5-formaminoimidazole-4-carboxamide-1-beta-D-ribofuranosyl 5'-monophosphate synthetase,cpd00002_c + cpd00047_c + cpd02851_c --> cpd00008_c + cpd00009_c + cpd02884_c,ATP + Formate + AICAR --> ADP + Phosphate + FAICAR
+11,0.10505116630841353,3,rxn01068_c,L-threonine:NAD+ oxidoreductase,cpd00003_c + cpd00161_c <=> cpd00004_c + cpd00067_c + cpd02211_c,NAD + L-Threonine <=> NADH + H+ + L-2-Amino-acetoacetate
+12,0.09901728049948674,3,rxn01070_c,Threonine racemase,cpd00161_c <=> cpd00611_c,L-Threonine <=> D-Threonine
+12,0.09901728049948674,3,rxn00690_c,Formate:tetrahydrofolate ligase (ADP-forming),cpd00002_c + cpd00047_c + cpd00087_c --> cpd00008_c + cpd00009_c + cpd00201_c,ATP + Formate + Tetrahydrofolate --> ADP + Phosphate + 10-Formyltetrahydrofolate
+12,0.09901728049948674,3,rxn11729_c,D-threonine acetaldehyde-lyase (glycine-forming),cpd00611_c --> cpd00033_c + cpd00071_c,D-Threonine --> Glycine + Acetaldehyde
+13,0.0990171480749734,3,rxn01070_c,Threonine racemase,cpd00161_c <=> cpd00611_c,L-Threonine <=> D-Threonine
+13,0.0990171480749734,3,rxn04784_c,5-formaminoimidazole-4-carboxamide-1-beta-D-ribofuranosyl 5'-monophosphate synthetase,cpd00002_c + cpd00047_c + cpd02851_c --> cpd00008_c + cpd00009_c + cpd02884_c,ATP + Formate + AICAR --> ADP + Phosphate + FAICAR
+13,0.0990171480749734,3,rxn11729_c,D-threonine acetaldehyde-lyase (glycine-forming),cpd00611_c --> cpd00033_c + cpd00071_c,D-Threonine --> Glycine + Acetaldehyde
